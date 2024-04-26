@@ -1,4 +1,3 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
     car,
     contact,
@@ -111,56 +110,83 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Argelia - Antioquia",
+        company_name: "Eastern Antioquia",
+        icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/1200px-Flag_of_Colombia.svg.png',
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "18 September 2003",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Argelia - Antioquia",
+            "Elementary School"
         ],
+        images: [
+            'https://radionacional-v3.s3.amazonaws.com/s3fs-public/node/article/field_image/argelia.jpg',
+            'https://upload.wikimedia.org/wikipedia/commons/d/d9/Parque_Principal_del_Municipio_de_Argelia-Antioquia.jpg'
+        ]
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Manrique, Medellín",
+        company_name: "",
+        icon: 'https://estaticos.elcolombiano.com/binrepository/893x565/57c0/780d565/none/11101/SRAQ/medellin_44703876_20240321143659.jpg',
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "1st January 2011",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Moving to Medellín",
+            "Middle secondary",
+            "Start to work with my aunt",
         ],
+        images: [
+            'https://i.pinimg.com/736x/f1/ec/55/f1ec553482fc2b77f67a7597beee7b7c.jpg',
+            'https://audaces.com/wp-content/uploads/2023/02/como-empezar-a-confeccionar-ropa-04-exito.jpg'
+        ]
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Graduation",
+        company_name: "",
+        icon: 'https://www.1800flowers.com/blog/wp-content/uploads/2022/05/graduation-messages-hero.jpg',
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "Januiary 2020 - December 2020",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "High School",
+            "Pandemic",
+            "Virtual classrooms",
+            "Graduation with honors",
         ],
+        images: [
+            'https://itopia.com/wp-content/uploads/2020/11/itopia_blog_11112020-1024x683.jpeg',
+            'https://miro.medium.com/v2/resize:fit:1400/0*8fhIVbaFlzcpz9QT'
+        ]
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Job training",
+        company_name: "Sena",
+        icon: 'https://i0.wp.com/www.cristobalnaranjo.com/wp-content/uploads/2022/05/sena.jpg?fit=1800%2C1080&ssl=1',
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "July 2021 - 16 August 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Sena",
+            "Software development",
         ],
+        images: [
+            'https://ambientesolar.com.co/wp-content/uploads/2021/10/ambientesolar.com.co-11-sena-pedregal-27500-kwp-pedregal44-scaled.jpg',
+            'https://miro.medium.com/v2/resize:fit:1400/1*Fp43zS64ZPoWi4IAz1n3MA.jpeg'
+        ]
+    },
+    {
+        title: "Working life",
+        company_name: "Noble Union",
+        icon: 'https://ii.ct-stc.com/1/logos/empresas/2023/05/16/f916a97903b146eea5cb161243182thumbnail.jpg',
+        iconBg: "#a2d2ff",
+        date: "16 February 2023 - Present",
+        points: [
+            "Start program practice",
+            "End program practices",
+            "Junior Software Developer",
+        ],
+        images: [
+            'https://media.licdn.com/dms/image/D4E12AQFzR8DDJ5QWcA/article-cover_image-shrink_720_1280/0/1681770541487?e=2147483647&v=beta&t=SjUIFbLLP6sdxFXibVReCl-2OiOhDi0mIRHlYKkD10Q',
+            'https://carrerasuniversitarias.com.mx/img/article/desarrollo-de-software-conoce-esta-carrera-en-linea'
+        ]
     },
 ];
 
@@ -182,47 +208,102 @@ export const socialLinks = [
     }
 ];
 
+
 export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
+        name: 'Read',
+        description: [
+            '- Thriller',
+            '- Fiction',
+            '- Motivational'
+        ],
+        modalTitle: 'Books',
         link: 'https://github.com/adrianhajdin/pricewise',
+        imgs: [
+            '/leer1.jpg',
+            '/leer2.jpg'
+        ]
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+        name: 'Listen music',
+        description: [
+            '- Hip hop',
+            '- Vallenato',
+            '- House / techno'
+        ],
+        modalTitle: 'Music',
         link: 'https://github.com/adrianhajdin/threads',
+        imgs: [
+            'https://i1.sndcdn.com/artworks-KjtdIymLdKaNx8e8-cB8yqA-t500x500.jpg',
+            'https://i.pinimg.com/736x/a0/51/1d/a0511daae7e00252a0fff3e8d0a17848.jpg',
+        ]
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
+        name: 'Learn',
+        description: [
+            '- New things',
+            '- Improve',
+        ],
+        modalTitle: 'Learn',
         link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        imgs: [
+            'https://miro.medium.com/v2/resize:fit:2000/0*TRc7WCSGmPAeJmCP',
+            '/cook1.jpg',
+        ]
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+        name: 'Watch movies / series',
+        description: [
+            '- Live actions',
+            '- Fantasy',
+            '- Comedy'
+        ],
+        modalTitle: 'Watch movies',
         link: 'https://github.com/adrianhajdin/social_media_app',
+        imgs: [
+            'https://s3.ppllstatics.com/lasprovincias/www/multimedia/2024/03/06/crepusculo-serie-kkt-U2101743463013gLC-1200x840@Las%20Provincias.jpg',
+            'https://cdn.colombia.com/sdi/2024/02/23/avatar-la-leyenda-de-aang-tendra-segunda-temporada-en-netflix-la-exitosa-serie-de-live-action-1225619.jpg',
+        ]
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+        name: 'Sports',
+        description: [
+            '- Soccer',
+            '- Basketball',
+            '- Atletism'
+        ],
+        modalTitle: 'Sports',
         link: 'https://github.com/adrianhajdin/projects_realestate',
+        imgs: [
+            '/ejer1.jpg',
+            'https://pbs.twimg.com/media/EisTPz6X0AUWSUJ.jpg',
+        ]
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
+        name: 'Pets',
+        description: [
+            '- Play',
+            '- Rellax',
+            '- Pamper them'
+        ],
+        modalTitle: 'Cook',
         link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        imgs: [
+            '/pet1.jpg',
+            '/pet2.jpg',
+
+        ]
     }
 ];
