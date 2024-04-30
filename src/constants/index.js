@@ -286,7 +286,7 @@ export const projects = [
         link: 'https://github.com/adrianhajdin/projects_realestate',
         imgs: [
             '/ejer1.jpg',
-            'https://pbs.twimg.com/media/EisTPz6X0AUWSUJ.jpg',
+            'https://i.pinimg.com/originals/5a/72/51/5a72510270c99f74fc02d7e01291fa9a.jpg',
         ]
     },
     {
@@ -306,4 +306,25 @@ export const projects = [
 
         ]
     }
+];
+
+export const insights = [
+    {
+        imgUrl: 'https://www.all-languages.org.uk/wp-content/uploads/2018/05/Word-languages-and-edges-of-flags.jpg',
+        title: 'Learning many languages',
+        subtitle:
+            'English, Portuguese, Italian, French',
+    },
+    {
+        imgUrl: 'https://meaningfulpaths.com/wp-content/uploads/2021/07/duy-pham-Cecb0_8Hx-o-unsplash-1024x576.jpg',
+        title: 'Meet others people',
+        subtitle:
+            'Create friendships around the world',
+    },
+    {
+        imgUrl: 'https://tedxborrowdale.co.zw/wp-content/uploads/2023/05/TedXSoho_Karl_Lokko.jpg',
+        title: 'Influential person',
+        subtitle:
+            'Motivate people, help them and contribute something good to the world.',
+    },
 ];

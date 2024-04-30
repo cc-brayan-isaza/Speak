@@ -34,6 +34,9 @@ const Navbar = () => {
           <NavLink to='/projects' className={({ isActive }) => isActive ? "text-blue-600" : "text-white"}>
             Hobbies
           </NavLink>
+          <NavLink to='/goals' className={({ isActive }) => isActive ? "text-blue-600" : "text-white"}>
+            Goals
+          </NavLink>
         </nav>
       </div>
     </motion.nav>

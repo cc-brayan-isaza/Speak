@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className='footer font-poppins'>
       <hr className='border-slate-200' />
 
-      <div className='footer-container'>
+      <div className='footer-container text-white'>
         <p>
           © 2024 <strong>Brayan Isaza</strong>. All rights reserved.
         </p>
